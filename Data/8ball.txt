@@ -1,0 +1,30 @@
+Yes.
+Perhaps.
+Maybe.
+I think so.
+Definitely.
+No.
+Definitely not.
+I doubt it.
+That's unlikely.
+I think it's quite likely.
+Obviously.
+That's a dumb question.
+Probably.
+Probably not.
+Good question!
+:thinking: That's a tough one.
+I'll think about it.
+Nobody cares about that question.
+Why would I answer that?
+Sure, why not?
+Who knows? :shrug:
+Of course.
+Of course not.
+I believe so.
+How would I know that?
+:shrug: Ask somebody else.
+I don't think I can help you with that one.
+Ask again.
+Sorry %n, I don't know this one.
+:thinking: "%q" is a very difficult question.
