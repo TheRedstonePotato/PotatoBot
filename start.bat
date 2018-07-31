@@ -1,1 +1,1 @@
-python -i PotatoBot.py your-bot-token-here
+python PotatoBot.py your-token-here
