@@ -21,28 +21,28 @@ Echars = '🇦🇧🇨🇩🇪🇫🇬🇭🇮🇯🇰🇱🇲🇳🇴🇵🇶�
 alphabet = 'abcdefghijklmnopqrstuvwxyzP'
 
 def parse(file):
-	with open(file, "r") as f:
+	with open(file, 'r') as f:
 		newlist = []
 		for line in f:
-			values = line.split(" ")
+			values = line.split(' ')
 			vlist = []
 			for value in values:
-				vlist.append(value.replace("\n", ""))
+				vlist.append(value.replace('\n', ''))
 			newlist.append(vlist)
 		return newlist
 
 def unparse(file,  parsed):
-	with open(file, "w") as f:
+	with open(file, 'w') as f:
 		for line in parsed:
-			text = ""
+			text = ''
 			for value in line:
-				text = text + value + " "
-			text = text[:len(text)-1] + "\n"
+				text = text + value + ' '
+			text = text[:len(text)-1] + '\n'
 			f.write(text)		
 
 def addline(file, text):
-	with open(file, "a") as f:
-		text = text + "\n"
+	with open(file, 'a') as f:
+		text = text + '\n'
 		f.write(text)
 
 def getEmoji(char):
@@ -87,6 +87,7 @@ async def on_message(message):
 	prefix = '!'
 	maxpotatoes = 50
 	maxsentences = 10
+	reactChance = 20
 	inList = False
 	serverList = parse(serverFile)
 
@@ -96,9 +97,10 @@ async def on_message(message):
 			prefix = server[1]
 			maxpotatoes = int(server[2])
 			maxsentences = int(server[3])
+			reactChance = int(server[4])
 
 	if inList == False:
-		text = str(sid) + ' ' + prefix + ' ' + str(maxpotatoes) + ' ' + str(maxsentences)
+		text = str(sid) + ' ' + prefix + ' ' + str(maxpotatoes) + ' ' + str(maxsentences) + ' ' +s str(reactChance)
 		addline(serverFile, text) 
 		
 	config = [prefix, maxpotatoes, path, maxsentences]

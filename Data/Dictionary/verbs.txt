@@ -98,3 +98,6 @@ divorce divorces divorced divorced divorcing -a
 punch punches punched punched punching -b
 kick kicks kicked kicked kicking -b
 count counts counted counted counting -b
+yeet yeets yote yote yeeting -b
+dab dabs dabbed dabbed dabbing -c
+dab%son dabs%son dabbed%son dabbed%son dabbing%son -a

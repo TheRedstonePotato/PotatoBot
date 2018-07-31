@@ -28,3 +28,5 @@ I don't think I can help you with that one.
 Ask again.
 Sorry %n, I don't know this one.
 :thinking: "%q" is a very difficult question.
+Hmm.... I'm not sure.
+%n, that is a very good question, but I'll have to get back to you on it.

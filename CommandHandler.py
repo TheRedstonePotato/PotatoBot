@@ -2,16 +2,7 @@
 
 import discord
 import asyncio
-import Commands.calc
-import Commands.rannum
-import Commands.potatoes
-import Commands.amipotato
-import Commands.info
-import Commands.help
-import Commands.eightball
-import Commands.ransen
-import Commands.test
-import Commands.cm
+from Commands import *
 
 personal = False
 try:

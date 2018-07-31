@@ -198,3 +198,16 @@ beetle beetles
 crab crabs
 squid squids
 map maps
+croissant croissants
+brioche brioches
+baguette baguettes
+bucket buckets
+jellyfish jellyfish
+eye eyes
+eyeball eyeballs
+router routers
+route routes
+kagune kagunes
+cello cellos
+viola violas
+violin violins
