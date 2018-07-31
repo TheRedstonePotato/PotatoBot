@@ -16,7 +16,6 @@ client = discord.Client()
 path = os.path.dirname(os.path.abspath(__file__))
 serverFile = path + '/Data/servers.txt'
 reactionWordsFile = path + '/Data/reactionWords.txt'
-reactionChanceFile = path + '/Data/reactionChance.txt'
 Echars = '🇦🇧🇨🇩🇪🇫🇬🇭🇮🇯🇰🇱🇲🇳🇴🇵🇶🇷🇸🇹🇺🇻🇼🇽🇾🇿🥔'
 alphabet = 'abcdefghijklmnopqrstuvwxyzP'
 
