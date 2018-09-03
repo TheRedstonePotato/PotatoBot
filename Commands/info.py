@@ -1,11 +1,10 @@
 # commands/info.py
 
-import discord
 import asyncio
+import discord
 
-def getInfo(): 
-	info = '-- **PotatoBot v7.1** --\nCreated by Potato#2815\nWritten in Python 3.6 using discord.py API\nInitally written using Notepad++, then Sublime Text 3\nI don\'t have much other information to give here.'
-	return info
+def getInfo(V): 
+    return f"__**PotatoBot v{V}**__\n\nCreated by *Potato#2815*\nWritten in Python 3.6 using discord.py API\nInitally written using Notepad++, then Sublime Text 3"
 
-async def run(client, message, config, args):
-	await client.send_message(message.channel, getInfo())
+async def run(cmd_properties):
+    await cmd_properties["client"].send_message(cmd_properties["message"].channel, getInfo(cmd_properties["settings"]["version"]))

@@ -1,7 +1,7 @@
 # commands/test.py
 
-import discord
 import asyncio
+import discord
 
-async def run(client, message, config, args):
-	await client.send_message(message.channel, 'Test successful.')
+async def run(cmd_properties):
+    await cmd_properties["client"].send_message(cmd_properties["message"].channel, "Test successful.")
