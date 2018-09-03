@@ -1,0 +1,1 @@
+python3.6 PotatoBot.py your-token-here
